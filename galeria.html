@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>Galeria - Conexões</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-content">
+      <div><a class="brand" href="index.html">Conexões</a></div>
+      <nav class="nav-menu" aria-label="Principal">
+        <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav-list" id="nav-list">
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="autores.html">Autores</a></li>
+          <li class="lang-item">
+            <button id="lang-toggle" aria-label="Trocar idioma">
+              <img src="Images/Icons/Eua.png" alt="English" style="width: 25px; height: 20px; vertical-align: middle;">
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="hero-content">
+      <div class="gallery-title">
+        <h1>Galeria</h1>
+      </div>
+
+      <!-- Títulos dos Capítulos juntamente com o acesso as fotografias -->
+      <nav class="chapters" aria-label="Capítulos">
+        <ul class="chapters-list">
+          <li class="chapter" data-chapter-index="0">
+            <button class="chapter-button" aria-expanded="false">
+              <div class="chapter-number">CAPÍTULO 1</div>
+              <div class="chapter-title">Mundo Conectado / Decadente</div>
+            </button>
+            <div class="gallery-grid" aria-hidden="true">
+              <div class="gallery-item"><img src="Images/Cap1/0.webp" alt="Mundo Conectado / Decadente 1"></div>
+              <div class="gallery-item"><img src="Images/Cap1/1.webp" alt="Mundo Conectado / Decadente 2"></div>
+              <div class="gallery-item"><img src="Images/Cap1/2.webp" alt="Mundo Conectado / Decadente 3"></div>
+              <div class="gallery-item"><img src="Images/Cap1/3.webp" alt="Mundo Conectado / Decadente 4"></div>
+              <div class="gallery-item"><img src="Images/Cap1/4.webp" alt="Mundo Conectado / Decadente 5"></div>
+              <div class="gallery-item"><img src="Images/Cap1/5.webp" alt="Mundo Conectado / Decadente 6"></div>
+              <div class="gallery-item"><img src="Images/Cap1/6.webp" alt="Mundo Conectado / Decadente 7"></div>
+              <div class="gallery-item"><img src="Images/Cap1/7.webp" alt="Mundo Conectado / Decadente 8"></div>
+              <div class="gallery-item"><img src="Images/Cap1/8.webp" alt="Mundo Conectado / Decadente 9"></div>
+              <div class="gallery-item"><img src="Images/Cap1/9.webp" alt="Mundo Conectado / Decadente 10"></div>
+              <div class="gallery-item"><img src="Images/Cap1/10.webp" alt="Mundo Conectado / Decadente 11"></div>
+              <div class="gallery-item"><img src="Images/Cap1/11.webp" alt="Mundo Conectado / Decadente 12"></div>
+              <div class="gallery-item"><img src="Images/Cap1/12.webp" alt="Mundo Conectado / Decadente 13"></div>
+              <div class="gallery-item"><img src="Images/Cap1/13.webp" alt="Mundo Conectado / Decadente 14"></div>
+              <div class="gallery-item"><img src="Images/Cap1/14.webp" alt="Mundo Conectado / Decadente 15"></div>
+              <div class="gallery-item"><img src="Images/Cap1/15.webp" alt="Mundo Conectado / Decadente 16"></div>
+              <div class="gallery-item"><img src="Images/Cap1/16.webp" alt="Mundo Conectado / Decadente 17"></div>
+              <div class="gallery-item"><img src="Images/Cap1/17.webp" alt="Mundo Conectado / Decadente 18"></div>
+              <div class="gallery-item"><img src="Images/Cap1/18.webp" alt="Mundo Conectado / Decadente 19"></div>
+              <div class="gallery-item"><img src="Images/Cap1/19.webp" alt="Mundo Conectado / Decadente 20"></div>
+            </div>
+          </li>
+
+          <li class="chapter" data-chapter-index="1">
+            <button class="chapter-button" aria-expanded="false">
+              <div class="chapter-number">CAPÍTULO 2</div>
+              <div class="chapter-title">Conexão / Infecção</div>
+            </button>
+
+            <!-- Fotografias em Slider-->
+            <div class="gallery-grid" aria-hidden="true">
+              <div class="gallery-item"><img src="Images/Cap2/0.webp" alt="Conexão / Infecção 00"></div>
+              <div class="gallery-item"><img src="Images/Cap2/1.webp" alt="Conexão / Infecção 1"></div>
+              <div class="gallery-item"><img src="Images/Cap2/2.webp" alt="Conexão / Infecção 2"></div>
+              <div class="gallery-item"><img src="Images/Cap2/3.webp" alt="Conexão / Infecção 3"></div>
+              <div class="gallery-item"><img src="Images/Cap2/4.webp" alt="Conexão / Infecção 4"></div>
+              <div class="gallery-item"><img src="Images/Cap2/5.webp" alt="Conexão / Infecção 5"></div>
+              <div class="gallery-item"><img src="Images/Cap2/6.webp" alt="Conexão / Infecção 6"></div>
+              <div class="gallery-item"><img src="Images/Cap2/7.webp" alt="Conexão / Infecção 7"></div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </main>
+
+  <!-- Fotos em tela cheia com opção de avançar e voltar juntamente com o botão de sair das imagens -->
+  <div class="carousel-overlay" id="carousel" aria-hidden="true">
+    <div class="carousel-inner" role="dialog" aria-label="Galeria - visualização">
+      <button class="carousel-close" id="carousel-close" aria-label="Fechar (Esc)">×</button>
+
+      <div class="carousel-stage" id="carousel-stage">
+        <button class="carousel-nav prev" id="carousel-prev" aria-label="Anterior"></button>
+
+        <div class="carousel-slide" id="carousel-slide">
+          <!-- Image element updated dynamically; keeps aspect via object-fit: contain -->
+          <img src="" alt="" id="carousel-image">
+        </div>
+
+        <button class="carousel-nav next" id="carousel-next" aria-label="Próxima"></button>
+      </div>
+
+      <div class="carousel-counter" id="carousel-counter" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <!-- Inline gallery script: small, scoped, commented -->
+  <script>
+  (function(){
+    // Minimal gallery carousel implementation with swipe support
+    const carousel = document.getElementById('carousel');
+    const imgEl = document.getElementById('carousel-image');
+    const counterEl = document.getElementById('carousel-counter');
+    const prevBtn = document.getElementById('carousel-prev');
+    const nextBtn = document.getElementById('carousel-next');
+    const closeBtn = document.getElementById('carousel-close');
+    const carouselSlide = document.getElementById('carousel-slide');
+    const carouselStage = document.getElementById('carousel-stage');
+
+    let chapters = []; // array of arrays of image objects {src, alt}
+    let current = { chapter: 0, index: 0 };
+
+    // Swipe tracking variables
+    let swipeStart = { x: 0, y: 0 };
+    let isDragging = false;
+    let dragOffset = 0;
+    const SWIPE_THRESHOLD = 50; // minimum distance (px) to trigger navigation
+    const SWIPE_RATIO = 0.3; // ratio of movement needed to auto-complete swipe
+
+    // Collect chapters and their images from DOM
+    document.querySelectorAll('.chapter').forEach((chapterEl, ci) => {
+      const imgs = Array.from(chapterEl.querySelectorAll('.gallery-grid img')).map(img => ({src: img.src, alt: img.alt || ''}));
+      chapters.push(imgs);
+
+      const btn = chapterEl.querySelector('.chapter-button');
+      btn.addEventListener('click', () => openChapter(ci));
+      btn.addEventListener('keydown', (e)=>{
+        if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openChapter(ci); }
+      });
+    });
+
+    function openChapter(ci){
+      if(!chapters[ci] || !chapters[ci].length) return;
+      current.chapter = ci;
+      current.index = 0;
+      show();
+      carousel.setAttribute('aria-hidden','false');
+      document.body.style.overflow = 'hidden';
+      document.addEventListener('keydown', onKey);
+      setupSwipeListeners();
+    }
+
+    function close(){
+      carousel.setAttribute('aria-hidden','true');
+      document.body.style.overflow = '';
+      document.removeEventListener('keydown', onKey);
+      removeSwipeListeners();
+    }
+
+    function onKey(e){
+      if(e.key === 'ArrowLeft') prev();
+      else if(e.key === 'ArrowRight') next();
+      else if(e.key === 'Escape') close();
+    }
+
+    function show(){
+      const imgs = chapters[current.chapter];
+      const item = imgs && imgs[current.index];
+      if(!item) return;
+
+      // fade effect: set opacity 0, swap src, then set opacity 1
+      imgEl.style.opacity = 0;
+      setTimeout(()=>{
+        imgEl.src = item.src;
+        imgEl.alt = item.alt;
+        imgEl.onload = ()=>{ imgEl.style.opacity = 1; };
+      }, 160);
+
+      counterEl.textContent = (current.index + 1) + ' / ' + imgs.length;
+
+      // preload next
+      const nextIndex = (current.index + 1) % imgs.length;
+      const pre = new Image(); pre.src = imgs[nextIndex].src;
+    }
+
+    function prev(){
+      const imgs = chapters[current.chapter] || [];
+      if(!imgs.length) return;
+      current.index = (current.index - 1 + imgs.length) % imgs.length;
+      show();
+    }
+
+    function next(){
+      const imgs = chapters[current.chapter] || [];
+      if(!imgs.length) return;
+      current.index = (current.index + 1) % imgs.length;
+      show();
+    }
+
+    // === SWIPE HANDLERS ===
+    function setupSwipeListeners(){
+      carouselSlide.addEventListener('mousedown', onSwipeStart);
+      carouselSlide.addEventListener('touchstart', onSwipeStart);
+      document.addEventListener('mousemove', onSwipeMove);
+      document.addEventListener('touchmove', onSwipeMove);
+      document.addEventListener('mouseup', onSwipeEnd);
+      document.addEventListener('touchend', onSwipeEnd);
+    }
+
+    function removeSwipeListeners(){
+      carouselSlide.removeEventListener('mousedown', onSwipeStart);
+      carouselSlide.removeEventListener('touchstart', onSwipeStart);
+      document.removeEventListener('mousemove', onSwipeMove);
+      document.removeEventListener('touchmove', onSwipeMove);
+      document.removeEventListener('mouseup', onSwipeEnd);
+      document.removeEventListener('touchend', onSwipeEnd);
+    }
+
+    function onSwipeStart(e){
+      // Ignore if clicking nav buttons or close button
+      if(e.target.closest('.carousel-nav') || e.target.closest('.carousel-close')) return;
+
+      isDragging = true;
+      dragOffset = 0;
+      swipeStart.x = e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
+      swipeStart.y = e.type.includes('touch') ? e.touches[0].clientY : e.clientY;
+      
+      carouselSlide.classList.remove('animating');
+      carouselSlide.classList.add('dragging');
+    }
+
+    function onSwipeMove(e){
+      if(!isDragging) return;
+
+      const currentX = e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
+      const currentY = e.type.includes('touch') ? e.touches[0].clientY : e.clientY;
+      
+      const deltaX = currentX - swipeStart.x;
+      const deltaY = currentY - swipeStart.y;
+
+      // Only apply drag if horizontal movement is greater than vertical (prevent vertical scrolling interference)
+      if(Math.abs(deltaX) > Math.abs(deltaY)){
+        e.preventDefault();
+        dragOffset = deltaX;
+        imgEl.style.transform = `translateX(${dragOffset}px)`;
+      }
+    }
+
+    function onSwipeEnd(e){
+      if(!isDragging) return;
+      isDragging = false;
+
+      carouselSlide.classList.remove('dragging');
+      carouselSlide.classList.add('animating');
+
+      const slideWidth = carouselSlide.offsetWidth;
+      const threshold = slideWidth * SWIPE_RATIO;
+
+      // Reset transform and navigate if threshold is met
+      imgEl.style.transform = '';
+
+      if(dragOffset > threshold) {
+        // Swiped right: show previous
+        prev();
+      } else if(dragOffset < -threshold) {
+        // Swiped left: show next
+        next();
+      }
+      // else: not enough movement, stay on current image
+
+      dragOffset = 0;
+    }
+
+    // Controls - attach defensively so missing elements don't throw
+    if(prevBtn) prevBtn.addEventListener('click', prev);
+    else console.warn('carousel-prev not found');
+
+    if(nextBtn) nextBtn.addEventListener('click', next);
+    else console.warn('carousel-next not found');
+
+    if(closeBtn) closeBtn.addEventListener('click', close);
+    else console.warn('carousel-close not found');
+
+    // Click on left/right half of stage to navigate (ignore clicks on nav/close buttons)
+    carouselStage.addEventListener('click', (e)=>{
+      // ignore clicks that originate on the nav buttons or close button
+      if (e.target.closest('.carousel-nav') || e.target.closest('.carousel-close')) return;
+
+      const rect = e.currentTarget.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      if(x < rect.width * 0.35) prev();
+      else if(x > rect.width * 0.65) next();
+    });
+
+    // Prevent click on image from bubbling
+    imgEl.addEventListener('click', (e)=>{ e.stopPropagation(); });
+
+    // Accessibility: make close button focusable when open
+    const observer = new MutationObserver(()=>{
+      if(carousel.getAttribute('aria-hidden') === 'false') closeBtn.focus();
+    });
+    observer.observe(carousel, { attributes: true });
+
+  })();
+  </script>
+
+  <footer class="site-footer">
+    <p>Conexões © 2026</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
